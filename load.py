@@ -1,3 +1,6 @@
+# __Author__ __Lencof__
+# load.py
+
 import requests
 
 def save_file_from_www(link):
